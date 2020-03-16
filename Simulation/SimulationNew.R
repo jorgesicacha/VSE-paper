@@ -16,8 +16,6 @@ library(foreach)
 library(doParallel)
 
 
-setwd("/Users/jorgespa/Documents/Research/Work for paper 2") ## Remove later ##
-
 ## Polygon of Hedmark ##
 newcrs <- CRS("+proj=robin +datum=WGS84 +units=km")
 norwaybu <-raster::getData("GADM",country="NOR",level=1)
